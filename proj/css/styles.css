@@ -1,0 +1,419 @@
+  body {
+      margin: 0;
+      
+  }
+  
+  .section1 {
+      background-image: url("../assets/backgrounds/landing.png");
+      background-size: cover;
+      overflow: hidden;
+      margin-left: -10%;
+      margin-right: -10%;
+      padding-bottom: 20px;
+  }
+  
+  
+  .aaa{
+      background-color: #B4E197;
+  }
+  .modal {
+      background-color: #F15A29;
+  }
+  
+  .fade.in {
+      opacity: 0.8;
+  }
+  
+  .modal-body,
+  .modal-title {
+      font-size: 20px;
+  }
+  
+  .modal-footer .btn {
+      font-size: 20px;
+      color: black;
+  }
+  
+  .logo {
+      padding: 150px;
+      z-index: 1;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+  }
+  
+  .boldSlogan {
+      font-weight: bold;
+  }
+  
+  .section2 {
+      margin-left: -10%;
+      margin-right: -10%;
+      text-align: center;
+      color: white;
+      font-style: italic;
+      font-size: 20px;
+     
+  }
+  
+  @media (min-width: 992px) {
+      .col-md-3 {
+          padding-left: 0;
+          padding-right: 0;
+      }
+  }
+  
+  .pad{
+      padding-top: 20px;
+  }
+  
+  #breakfast {
+      background-image: url("../assets/foodtop/breakfast.jpg");
+      background-size: cover;
+      padding: 100px;
+  }
+  
+  #lunch {
+      background-image: url("../assets/foodtop/lunch.jpg");
+      background-size: cover;
+      padding: 100px;
+  }
+  
+  #dinner {
+      background-image: url("../assets/foodtop/dinner.jpg");
+      background-size: cover;
+      padding: 100px;
+  }
+  
+  #dinner:hover,
+  #lunch:hover,
+  #breakfast:hover {
+      color: #F15A29;
+      opacity: 0.7;
+      filter: alpha(opacity=70);
+     
+  }
+  
+  
+  .section3 {
+      padding: 50px;
+      background-color: #E9EFC0;
+  }
+  .hd{
+      width: 490px;
+      height: 195px;
+  }
+  .fastFood {
+      padding: 20px;
+      margin-left: 25px;
+      text-align: left;
+  }
+  
+  .drinksInfoRow {
+      padding-top: 70px;
+  }
+  
+  .fastFood>h3,
+  .fastFood>h4,
+  .drinksInfo>h3,
+  .drinksInfo>h4 {
+      font-weight: bold;
+  }
+  
+  .fastFoodPhotos,
+  .drinksInfoPhotos {
+      padding: 20px;
+      border: 2px solid rgba(211, 211, 211, 0.44);
+      box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.14);
+  }
+  
+  .fastFoodPhotos>img,
+  .drinksInfoPhotos>img {
+      margin: auto;
+      text-align: center;
+  }
+  
+  .drinksInfoPhoto2 {
+      float: right;
+  }
+  
+  button {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: white;
+      color: #f15a29;
+      border: 1px solid #f15a29;
+  }
+
+  
+  .section4 {
+      margin-left: -10%;
+      margin-right: -10%;
+      text-align: center;
+      background-image: url("../assets/backgrounds/foodsBg.jpg");
+      background-size: cover;
+      background-attachment: scroll;
+      background-clip: border-box;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 70px;
+  }
+  .dish{
+      color: #ddd;
+      margin-top: 0;
+  }
+  .mgg{
+      margin-left: 240px;
+      width: 700px;
+      text-align: center;
+  }
+  .tddd{
+      padding: 20px;
+  }
+  .mg{
+      width: 250px;
+      height: 200px;
+      padding: 20px;
+      border-radius: 50px;
+  }
+  .mg:hover{
+      filter: blur(1px) ;
+      
+  }
+  .bbb{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 2rem;
+    color: #ddd;
+  }
+.order{
+    text-align: center;
+    background-color: #383838;
+    width: 300px;
+    border-radius: 100px;
+    color: #FFFBE7;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 25px;
+}
+.order:hover{
+    background-color: #f15a19;
+    
+    width: 320px;
+
+}
+#features{
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    padding: 30px;
+}
+#r2{
+    text-align: center;
+    padding: 7% 15%;
+}
+.pp{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    color: #8f8f8f;
+}
+.icon{
+   
+    color: #ef8172;
+    margin-bottom: 10px;
+ }
+ .hhhh{
+     font-size: 1.5rem;
+     font-weight: bold;
+ }
+ .icon:hover{
+     color: #ff4c68;
+ 
+ }
+ 
+  
+.section5{
+    background-color: #E9EFC0;
+}
+.ll{
+    background-color: #B4E197;
+}
+  .section5>.row {
+      width: 80%;
+      margin: 50px auto;
+      border: 2px solid #ddd;
+      box-shadow: 0px 0px 5px lightgrey;
+      padding: 40px;
+  }
+  
+  .customers {
+      margin: auto;
+      text-align: center;
+      padding: 20px;
+  }
+  
+  .customers>h4 {
+      color: #f15a29;
+      font-weight: bold;
+  }
+  
+  .carousel-inner>.item>img {
+      margin: auto;
+  }
+  
+  #testimonials .carousel-inner {
+      padding: 0px;
+  }
+  
+  .carousel-indicators {
+      display: none;
+  }
+  
+  .item h5 {
+      margin-top: 1px;
+  }
+  
+  
+  .carousel-inner .item.left.active {
+      transform: translateX(-33%);
+  }
+  
+  .carousel-inner .item.right.active {
+      transform: translateX(33%);
+  }
+  
+  .carousel-inner .item.next {
+      transform: translateX(33%)
+  }
+  
+  .carousel-inner .item.prev {
+      transform: translateX(-33%)
+  }
+  
+  .carousel-inner .item.right,
+  .carousel-inner .item.left {
+      transform: translateX(0);
+  }
+  
+  .about {
+      padding: 20px;
+      text-align: center;
+      border-left: 2px solid #ddd;
+  }
+  
+  .about>h4 {
+      color: #f15a29;
+      font-weight: bold;
+  }
+ 
+  
+  .section6 {
+      text-align: center;
+      background-image: url("../assets/backgrounds/subscribe.jpg");
+      background-size: cover;
+      overflow: hidden;
+      color: white;
+      font-size: 20px;
+      margin-left: -10%;
+      margin-right: -10%;
+      padding: 80px;
+  }
+  
+  .form-group {
+      width: 50%;
+      margin: auto;
+  }
+  
+  .section6 p {
+      font-size: 30px;
+
+  }
+  
+  
+  input[type=text] {
+      background-color: rgba(255, 255, 255, 0.4);
+      font-size: 16px;
+  }
+  
+  input[type=button] {
+      background-color: #f15a29;
+      color: white;
+      font-size: 16px;
+  }
+  
+  .form-control {
+      border: 0;
+      border-radius: 2px;
+  }
+  
+  .form-control::-moz-placeholder {
+      color: white;
+      opacity: 1;
+  }
+  
+  .form-control:-ms-input-placeholder {
+      color: white;
+  }
+  
+  .form-control::-webkit-input-placeholder {
+      color: white;
+  }
+  
+  #output {
+      font-size: 20px;
+  }
+  
+  .footer .fa {
+      margin-right: 15px;
+      margin-left: 15px;
+  }
+  
+  
+  .section7 {
+      background-color: #f15a29;
+      margin-left: -10%;
+      margin-right: -10%;
+  }
+  
+  .footer {
+      width: 30%;
+      margin: auto;
+      padding-top: 50px;
+      padding-bottom: 20px;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+  }
+  
+  .footer>img {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 40px;
+  }
+  
+  .footer p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .footer h5 {
+      font-size: 40px;
+  }
+  
+  #copyright {
+      font-size: 14px;
+      margin-bottom: 0;
+  }
+#click{
+    background-color: gray;
+    border-radius: 100px;} 
+#click:hover{
+   background-color:#f15a29 ;
+}
+.im{
+    width: 60px;
+    height: 60px;
+}
+.ho{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #123456;
+}

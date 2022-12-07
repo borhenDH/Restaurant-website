@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script language="javascript" src="./js/inscription.js"></script></script>
+  <link rel="icon" href="assets\icon\login.png">
+  <title>isncription</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.bg-img{
+ background-image: url("./assets/backgrounds/login.png");
+  /* Add the blur effect */
+ 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+ height: 100%;
+  position: absolute;
+}
+
+.container{
+    position: absolute;
+}
+.f{
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+b{
+  color: black;
+}
+</style>
+</head>
+<body>
+
+   
+<div class="bg-img"></div>
+
+<div class="container">
+    <form class="f" name='frm' method="post" action="./inscription.php">
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" name="firstname" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" name="lastname" placeholder="Last name">
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1"><b>Email address</b> </label>
+            <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">            
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1"><b>Password</b> </label>
+            <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>   
+         <button type="submit"  class="btn btn-primary" onclick="verifInscription()">s'inscrire</button>        
+      </form>
+   </div>
+
+
+</body>
+</html>
